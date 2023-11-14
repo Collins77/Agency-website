@@ -122,7 +122,7 @@ export const testimonialsData = [
   },
   {
     comment:
-      "I have been working with ZAINKEEPSCODE on our fundraising strategies. They understands the in depth strategies of Venture Capital and early stage fund raising/company",
+      "I have been working with Cotek on our fundraising strategies. They understands the in depth strategies of Venture Capital and early stage fund raising/company",
     name: "Cheryl R. Weiss",
     profession: "Founder, Dubrow Cafeteria",
   },
