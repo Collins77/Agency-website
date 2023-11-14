@@ -1,0 +1,147 @@
+.h-wrapper {
+    background-color: var(--primary-color);
+    height: 120vh;
+    overflow: hidden;
+}
+
+.h-wrapper .container {
+    padding-top: 8rem;
+}
+
+.h-arrow {
+    position: absolute;
+    top: 6rem;
+    width: 100%;
+    max-width: 60rem;
+    z-index: 0;
+}
+
+.h-container {
+    display: flex;
+    height: 80vh;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+
+/* left side styling */
+.h-left {
+    flex: 1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    padding-top: 5rem;
+}
+
+.image-row {
+    display: flex;
+    gap: 2rem;
+}
+
+.person-pill {
+    height: 15rem;
+    width: 6rem;
+    border-radius: 999px;
+    overflow: hidden;
+}
+
+.person-pill-bg {
+    border-radius: 999px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.person-pill-bg > img {
+    width: 100%;
+    object-fit: cover;
+    scale: 2;
+    margin-top: 4rem;
+}
+
+.image-row > :nth-child(2) {
+    transform: translateY(-4rem);
+}
+
+/* right side styling */
+
+.h-right {
+    flex: 1.25;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.h-title {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: var(--third-color);
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.h-title>:nth-child(3) {
+    color: white;
+}
+
+.h-description {
+    color: white;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+@media (max-width: 1024px) {
+    .h-wrapper {
+        height: max-content;   
+    }
+    .h-wrapper .container {
+        padding-top: 5rem;
+    }
+    .h-container {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        gap: 4rem;
+        padding-bottom: 3rem;
+    }
+
+    .h-arrow {
+        display: none;
+    }
+
+    .h-right {
+        flex: 1;
+        align-items: center;
+    }
+
+    .h-title {
+        align-items: center;
+        font-size: 2.2rem;
+    }
+
+    .h-description {
+        font-size: 1.2rem;
+        width: 80%;
+        text-align: center;
+    }
+    
+}
+
+@media (min-width: 768px) {
+    .h-container {
+      height: 90vh;
+    }
+    .h-wrapper .container {
+        padding-top: 5.2rem;
+    }
+    .h-arrow {
+        max-width: 48rem;
+    }
+}
+  
+  

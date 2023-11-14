@@ -1,0 +1,61 @@
+.app {
+    position: relative;
+    transition: all 300ms ease-out;
+}
+.tag {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 2.6rem;
+    color: var(--title-color);
+    font-weight: bold;
+    text-align: center;
+    line-height: 3.5rem;
+    text-transform: capitalize;
+}
+
+.des {
+    font-size: 1.4rem;
+    color: var(--text-color);
+    line-height: 2rem;
+}
+
+.sec-title {
+    font-size: 2rem;
+    color: var(--title-color);
+    font-weight: 600;
+    text-align: center;
+    line-height: 3rem;
+    text-transform: capitalize;
+}
+
+.text {
+    color: var(--text-color);
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 2.2rem;
+    }
+    .sec-title {
+        font-size: 1.8rem;
+    }
+
+    .des {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .title {
+        font-size: 1.8rem;
+    }
+    .sec-title {
+        font-size: 1.6rem;
+    }
+}

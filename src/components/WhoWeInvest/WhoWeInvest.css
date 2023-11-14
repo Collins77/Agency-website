@@ -1,0 +1,80 @@
+.wwi-wrapper .container {
+    padding-top: 13rem;
+}
+
+.wwi-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wwi-container > div {
+    flex: 1;
+}
+
+.wwi-left {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.wwi-left .head {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.wwi-left .head .title {
+    text-align: left;
+    color: white;
+}
+
+.wwi-feature {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-width: 28rem;
+}
+
+.wwi-feature .des {
+    color: var(--fourth-color);
+}
+
+.wwi-feature .text {
+    color: white;
+    text-align: justify;
+}
+
+.wwi-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+}
+
+.wwi-right img {
+    width: 100%;
+}
+
+@media (max-width: 990px) {
+    .wwi-container {
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .wwi-right {
+        align-self: center;
+        margin-top: 2rem;
+    }
+
+    .wwi-right img {
+        max-width: 20rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 80%;
+    }
+}
